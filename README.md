@@ -30,7 +30,7 @@ Proyecto en Wokwi: [Ver simulación interactiva](https://wokwi.com/projects/4810
 Ver la carpeta `firmware/`. Biblioteca usada: `ESP32Servo`.
 
 ## Evidencia
-![Simulación](media/Simulación diagrama.png)
+![Simulación](media/simulacion.png)
 
 Video demostrativo en YouTube: [Ver video](https://youtu.be/me3JFNTOoPM)
 
