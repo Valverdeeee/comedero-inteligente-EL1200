@@ -32,7 +32,7 @@ Ver la carpeta `firmware/`. Biblioteca usada: `ESP32Servo`.
 ## Evidencia
 ![Simulación](media/simulacion.png)
 
-Video demostrativo en YouTube: [Ver video](https://youtu.be/me3JFNT0oPM)
+Video demostrativo en YouTube: [Ver video](https://youtu.be/me3JFNTOoPM)
 
 ## Mejoras futuras
 - Agregar un módulo de reloj en tiempo real (RTC) para restringir horarios de alimentación.
