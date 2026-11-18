@@ -24,7 +24,7 @@ Comedero automático que dispensa alimento solo cuando detecta al gato y evita s
 ![Diagrama](docs/esquema.png)
 
 ## Simulación
-Proyecto en Wokwi: [Ver simulación interactiva](PEGA_AQUI_TU_ENLACE_DE_WOKWI)
+Proyecto en Wokwi: [Ver simulación interactiva](https://wokwi.com/projects/481001785295433729)
 
 ## Código
 Ver la carpeta `firmware/`. Biblioteca usada: `ESP32Servo`.
@@ -32,7 +32,7 @@ Ver la carpeta `firmware/`. Biblioteca usada: `ESP32Servo`.
 ## Evidencia
 ![Simulación](media/simulacion.png)
 
-Video demostrativo en YouTube: [Ver video](https://youtu.be/me3JFNTooPM)
+Video demostrativo en YouTube: [Ver video](https://youtu.be/me3JFNT0oPM)
 
 ## Mejoras futuras
 - Agregar un módulo de reloj en tiempo real (RTC) para restringir horarios de alimentación.
