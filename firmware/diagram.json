@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Sebastian",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 44.4, "left": 176.6, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 109.55,
+      "left": 124.8,
+      "attrs": { "value": "220000" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 103.6, "left": -201.6, "attrs": {} },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 186.4, "left": 127.02, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "servo1:V+", "esp:3V3", "red", [ "h-28.8", "v-134.3" ] ],
+    [ "esp:3V3", "pir1:VCC", "red", [ "h-23.81", "v-57.6", "h297.6", "v345.6", "h-115.2" ] ],
+    [ "pir1:GND", "esp:GND.2", "black", [ "v19.2", "h76.54", "v-278.4" ] ],
+    [ "esp:2", "pir1:OUT", "green", [ "h139.24", "v144", "h-67.2", "v-9.6" ] ],
+    [ "esp:5", "r1:1", "green", [ "h0" ] ],
+    [ "r1:2", "led1:A", "green", [ "v0", "h18" ] ],
+    [ "esp:GND.3", "led1:C", "black", [ "h0" ] ],
+    [ "esp:13", "servo1:PWM", "green", [ "h-23.81", "v38.4", "h-192" ] ],
+    [ "esp:GND.1", "servo1:GND", "black", [ "h-23.81", "v-57.6", "h-201.6", "v57.6", "h9.6" ] ]
+  ],
+  "dependencies": {}
+}
